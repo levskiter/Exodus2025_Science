@@ -1,7 +1,7 @@
 # Exodus2025_Science
 🏗️ System Architecture Overview
 
-This repository contains the complete software stack for the TAUVER Rover's dual-science payload. The system operates on a highly distributed ROS 2 (Jazzy) framework, bridging low-level microcontroller hardware (Layer 1) to an asynchronous PyQt5 graphical command station (Layer 7) across a wireless CycloneDDS middleware layer.
+This repository contains the complete software stack for the TAUVER Rover's dual-science payload. The system operates on a ROS 2framework, bridging low-level microcontroller hardware (Layer 1) to an asynchronous PyQt5 graphical command station (Layer 7) across a wireless CycloneDDS middleware layer.
 
 The architecture is divided into two physically and logically isolated subsystems:
 
@@ -85,6 +85,6 @@ Astrobiology Topics (std_msgs):
 
 🚀 Quick Start (Deployment)
 
-For the comprehensive, step-by-step physical deployment and network mapping protocol, please refer to the tauver_dummy_proof_manual.md included in this repository.
 
-Property of the TAUVER Science Team.
+
+
